@@ -2,5 +2,19 @@
   "installCommand": "npm install",
   "buildCommand": "npm run build",
   "outputDirectory": "dist/client",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/research/human-exclusion-threshold/assets/:path*",
+      "destination": "/assets/:path*"
+    },
+    {
+      "source": "/research/human-exclusion-threshold",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/research/human-exclusion-threshold/:path*",
+      "destination": "/index.html"
+    }
+  ]
 }

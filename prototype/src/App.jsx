@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowRight, BookOpen, CaretDown, Check, Gavel, LinkSimple, SlidersHorizontal, Target, UserCircle, X } from "@phosphor-icons/react";
 import { CartesianGrid, ComposedChart, Label, LabelList, Line, ReferenceArea, ResponsiveContainer, Scatter, XAxis, YAxis } from "recharts";
 
